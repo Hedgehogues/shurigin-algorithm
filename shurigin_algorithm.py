@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+
 def shurigin_algorithm_debug(x, draw=False, noise=np.array([]), xlim=[]):
     x = list(x) + list(noise)
     mean = np.mean(x)
